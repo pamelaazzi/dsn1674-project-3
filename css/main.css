@@ -1,5 +1,5 @@
 html {
-background-color: white;
+  background-color: white;
   box-sizing: border-box;
 }
 *,*::before, **::after{
@@ -18,22 +18,22 @@ header {
   width: 300px;
   margin-top: 1.5em;
   margin-bottom: 0.6em;
+  display: inline-block;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.1em;
   text-align: center;
   margin-top: 1em;
   font-weight: normal;
   background-color: lightgrey;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 1.1em;
   padding: 0.5em;
   margin: 0;
 }
 
-.billboard {
+.billboard{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: white;
@@ -44,7 +44,7 @@ h1 {
   margin: 0;
 }
 
-.soul {
+.soul{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: white;
@@ -102,6 +102,8 @@ img {
   width: 100%;
   margin: 0em;
   padding: 0em;
+  display: block;
+
 }
 
 aside {
@@ -109,7 +111,6 @@ aside {
   width: 50%;
   padding: 0em;
   margin: 0em;
-  margin-bottom: 0em;
 }
 
 div {
